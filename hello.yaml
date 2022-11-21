@@ -1,6 +1,6 @@
-- name: Hello World Sample
+- name: Hello AWX
   hosts: all
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello Ansible!"
+        msg: "Hello AWX!"
